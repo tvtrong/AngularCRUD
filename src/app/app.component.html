@@ -1,0 +1,22 @@
+<div>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+          Django + Angular = CRUD App
+        </a>
+        <div class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a routerLink="tutorials" class="nav-link">Tutorials</a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="add" class="nav-link">Add tutorial</a>
+            </li>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="fixed-bottom bg-dark">
+        <a href="#" class="badge badge-light border-info">phongtaitieu@gmail.com</a>
+    </div>
+</div>
